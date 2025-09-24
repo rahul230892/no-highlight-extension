@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "No Text Highlight Color",
+  "version": "1.0",
+  "description": "Removes text highlight color from all websites.",
+  "permissions": [
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "icons/icon128.png"
+  }
+}
